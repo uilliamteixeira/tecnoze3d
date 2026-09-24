@@ -115,7 +115,7 @@ flowchart TD
 
 **Segurança antes do backup.** Antes de cada envio para o GitHub, o sistema compara os arquivos com todas as chaves reais da VPS e cancela o envio se encontrar alguma. Os dados do banco vão criptografados (AES-256) e só as 3 cópias mais recentes ficam guardadas.
 
-**O humano só faz o que só o humano faz.** Imprimir, embalar, fotografar a peça real e revisar o texto antes de publicar.
+**Eu só faço** Imprimir, embalar, fotografar a peça real e revisar o texto antes de publicar.
 
 ---
 
