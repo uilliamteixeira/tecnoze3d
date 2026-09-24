@@ -24,6 +24,34 @@ Projeto iniciado em julho de 2026.
 
 ---
 
+## O painel, antes e agora
+
+Nas capturas, valores em reais, margens e números de pedido aparecem ocultos (`R$ •••`). Os números do cadastro de exemplo são ilustrativos.
+
+**Primeira versão (julho de 2026):** oportunidades, contagem de anúncios e um termômetro de tendências.
+
+![Primeira versão do painel](docs/img/00_painel_versao_inicial.png)
+
+**Hoje:** visão da operação com dados sincronizados da Shopee, saúde da conta, avisos da plataforma e últimos pedidos.
+
+![Painel atual](docs/img/01_painel_atual.png)
+
+**Lucro por anúncio:** preço atual lido da Shopee de hora em hora, ficha técnica (gramas e tempo de impressão), embalagem real, taxa e margem. O que fica abaixo de 30% aparece em amarelo.
+
+![Lucro por anúncio](docs/img/02_lucro_por_anuncio.png)
+
+**Impressões por produto:** um ponto a cada relatório de 30 dias importado, com a data de cadastro de cada anúncio para ler a linha do tempo.
+
+![Impressões por produto](docs/img/03_impressoes_por_produto.png)
+
+**Cadastro manual:** a ficha é preenchida e o sistema calcula custo, taxa e lucro na hora. Quando o kit rende mais por peça, um aviso abre sozinho.
+
+![Aviso de kit no cadastro](docs/img/04_cadastro_popup_kit.png)
+
+![Cálculo de custo, taxa e lucro por opção](docs/img/05_cadastro_calculo.png)
+
+---
+
 ## Arquitetura
 
 ```mermaid
